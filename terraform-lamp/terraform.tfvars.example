@@ -1,0 +1,41 @@
+# PromptWARS LAMP Stack Configuration
+# Copy this file to terraform.tfvars and fill in your values
+
+# Project Configuration
+project_name = "promptwars"
+environment  = "production"
+
+# AWS Configuration
+aws_region        = "us-east-1"
+availability_zone = "us-east-1a"
+
+# Compute
+instance_type = "t3.medium"  # or t3.small for dev
+
+# Security
+ssh_key_name     = "promptwars-lamp-key"
+allowed_ssh_cidr = "0.0.0.0/0"  # CHANGE THIS TO YOUR IP! (e.g., "1.2.3.4/32")
+
+# Database
+db_password = "CHANGE_ME_STRONG_PASSWORD"
+
+# JWT Authentication
+jwt_secret = "CHANGE_ME_RANDOM_SECRET_KEY"
+
+# AI Configuration
+litellm_api_key = "sk-..."  # OpenAI or Anthropic API key
+litellm_model   = "gpt-4"   # or "claude-3-sonnet-20240229"
+
+# Email Configuration
+smtp_host = "smtp.gmail.com"
+smtp_port = 587
+smtp_user = "your-email@gmail.com"
+smtp_pass = "your-app-password"
+smtp_from = "noreply@promptwars.com"
+
+# Application
+app_domain = ""  # Leave empty if no domain, or "promptwars.example.com"
+
+# Repository
+git_repo_url = "https://github.com/YangKuoshih/PromptTrainer.git"
+git_branch   = "main"

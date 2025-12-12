@@ -1,0 +1,18 @@
+# Code owners for PromptWARS
+# These owners will be automatically requested for review when PRs are opened
+
+# Default owner for everything
+* @tony-yang
+
+# Infrastructure
+/terraform/ @tony-yang
+
+# Frontend
+/frontend/ @tony-yang
+
+# Backend
+/backend/ @tony-yang
+
+# Documentation
+*.md @tony-yang
+/docs/ @tony-yang
