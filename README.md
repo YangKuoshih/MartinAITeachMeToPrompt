@@ -473,7 +473,7 @@ MIT License
 ## 📧 Contact
 
 **Project Owner:** Tony Yang  
-**Repository:** [YangKuoshih/PromptTrainer](https://github.com/YangKuoshih/PromptTrainer)
+**Repository:** [YangKuoshih/MartinAITeachMeToPrompt](https://github.com/YangKuoshih/MartinAITeachMeToPrompt)
 
 ---
 
