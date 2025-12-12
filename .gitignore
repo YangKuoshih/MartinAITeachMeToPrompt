@@ -1,0 +1,112 @@
+# Environment Variables & Configuration
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Terraform Sensitive Files
+terraform-lamp/terraform.tfvars
+terraform-lamp/terraform.tfstate
+terraform-lamp/terraform.tfstate.backup
+terraform-lamp/.terraform/
+terraform-lamp/*.tfplan
+terraform-lamp/crash.log
+
+# SSH Keys & Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# API Keys & Secrets
+config/secrets.php
+config/api-keys.php
+secrets/
+credentials/
+
+# Database
+*.sql.gz
+*.dump
+database/backups/
+*.db
+*.sqlite
+
+# PHP
+vendor/
+composer.lock
+*.log
+tmp/
+cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Node.js & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# IDE & Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+apache2/logs/
+/var/log/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary Files
+*.tmp
+*.temp
+/tmp/
+temp/
+
+# AWS & Cloud
+.aws/
+aws-credentials
+gcp-credentials.json
+azure-credentials
+
+# Email Configuration
+mail-config.php
+smtp-config.php
+
+# Application Specific
+uploads/
+user-uploads/
+storage/app/
+public/uploads/
