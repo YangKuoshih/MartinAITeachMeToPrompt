@@ -150,7 +150,7 @@ See [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) for complete setup instructions
 ## 📁 Project Structure
 
 ```
-PromptTrainer/
+MartinAITeachMeToPrompt/
 ├── backend-php/           # PHP 7.4 backend
 │   ├── public/           # Entry point
 │   ├── src/
@@ -175,7 +175,7 @@ PromptTrainer/
 │   │   └── compute/      # EC2 instance
 │   └── README.md
 ├── apache-config/        # Apache configuration
-│   └── Teach me Prompting-ssl.conf
+│   └── MartinAITeachMeToPrompt-ssl.conf
 └── docs/                 # Documentation
 ```
 
